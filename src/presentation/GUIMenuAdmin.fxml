@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LTitle2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="1309.0" style="-fx-background-color: LINEN;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.GUIMenuAdminController">
+   <children>
+      <Label prefHeight="55.0" prefWidth="1309.0" style="-fx-background-color: PALEVIOLETRED;" text="                                                                           Menu Principal                " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="TableOrder" layoutX="609.0" layoutY="148.0" prefHeight="496.0" prefWidth="686.0">
+        <columns>
+          <TableColumn fx:id="ColumnID" prefWidth="56.0" style="-fx-background-color: pink;" text="Id" />
+          <TableColumn fx:id="ColumnNameProduct" prefWidth="171.0" style="-fx-background-color: pink;" text="Nombre del Producto" />
+            <TableColumn fx:id="ColumnQuantity" prefWidth="59.0" style="-fx-background-color: pink;" text="Cantidad" />
+            <TableColumn fx:id="ColumnTotal" prefWidth="130.0" style="-fx-background-color: pink;" text="Total" />
+            <TableColumn fx:id="ColumnState" prefWidth="136.0" style="-fx-background-color: pink;" text="Estado" />
+            <TableColumn fx:id="ColumnIDStudent" prefWidth="133.0" style="-fx-background-color: pink;" text="Cedula de Estudiante" />
+        </columns>
+      </TableView>
+      <Separator layoutX="598.0" layoutY="62.0" orientation="VERTICAL" prefHeight="660.0" prefWidth="11.0" />
+      <Pane layoutY="71.0" prefHeight="586.0" prefWidth="590.0" style="-fx-background-color: LIGHTPINK;">
+         <children>
+            <Label layoutX="-4.0" layoutY="12.0" prefHeight="37.0" prefWidth="596.0" style="-fx-background-color: white;" text="                                                       Seleccione que desea realizar en el Menu ">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="LTitle3" layoutX="15.0" layoutY="73.0" prefHeight="109.0" prefWidth="172.0" style="-fx-background-color: white; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle4" layoutX="20.0" layoutY="80.0" prefHeight="17.0" prefWidth="162.0" style="-fx-background-color: pink;" text="            Añadir platos" />
+            <Button fx:id="ButtonAddPlate" layoutX="25.0" layoutY="124.0" mnemonicParsing="false" onAction="#ButtonAddPlateAction" prefHeight="37.0" prefWidth="148.0" style="-fx-background-color: CRIMSON;" text="Añadir" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="LTitle31" layoutX="213.0" layoutY="73.0" prefHeight="109.0" prefWidth="172.0" style="-fx-background-color: LINEN; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle41" layoutX="219.0" layoutY="80.0" prefHeight="17.0" prefWidth="162.0" style="-fx-background-color: pink;" text="            Modificar platos" />
+            <Button fx:id="ButtonUpdatePlate" layoutX="225.0" layoutY="124.0" mnemonicParsing="false" onAction="#ButtonUpdatePlate" prefHeight="37.0" prefWidth="148.0" style="-fx-background-color: CRIMSON;" text="Modificar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="LTitle32" layoutX="409.0" layoutY="73.0" prefHeight="109.0" prefWidth="172.0" style="-fx-background-color: white; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle42" layoutX="414.0" layoutY="80.0" prefHeight="17.0" prefWidth="162.0" style="-fx-background-color: pink;" text="          Eliminar platos" />
+            <Button fx:id="ButtonDeletePlate" layoutX="421.0" layoutY="124.0" mnemonicParsing="false" onAction="#ButtonDeletePlate" prefHeight="37.0" prefWidth="148.0" style="-fx-background-color: CRIMSON;" text="Eliminar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Separator layoutX="5.0" layoutY="215.0" prefHeight="17.0" prefWidth="596.0" />
+            <Label fx:id="LtitleStudent" layoutY="232.0" prefHeight="37.0" prefWidth="590.0" style="-fx-background-color: white;" text="                                                       Seleccione que desea realizar en Estudiantes ">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="LTitle33" layoutX="20.0" layoutY="283.0" prefHeight="109.0" prefWidth="236.0" style="-fx-background-color: LINEN; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle43" layoutX="25.0" layoutY="290.0" prefHeight="17.0" prefWidth="230.0" style="-fx-background-color: pink;" text="               Registro de Estudiantes" />
+            <Button fx:id="ButtonRegisterStudent" layoutX="30.0" layoutY="334.0" mnemonicParsing="false" onAction="#ButtonRegisterStudentAction" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: CRIMSON;" text="Registrar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="LTitle331" layoutX="338.0" layoutY="283.0" prefHeight="109.0" prefWidth="236.0" style="-fx-background-color: white; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle431" layoutX="343.0" layoutY="290.0" prefHeight="17.0" prefWidth="230.0" style="-fx-background-color: pink;" text="                    Lista de Estudiantes" />
+            <Button fx:id="ButtonReadStudent" layoutX="348.0" layoutY="334.0" mnemonicParsing="false" onAction="#ButtonReadStudentAction" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: CRIMSON;" text="Estudiantes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="LTitle332" layoutX="22.0" layoutY="423.0" prefHeight="109.0" prefWidth="236.0" style="-fx-background-color: white; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle432" layoutX="27.0" layoutY="430.0" prefHeight="17.0" prefWidth="230.0" style="-fx-background-color: pink;" text="               Modificar  Estudiantes" />
+            <Button fx:id="ButtonUpdateStudent" layoutX="32.0" layoutY="474.0" mnemonicParsing="false" onAction="#ButtonUpdateStudent" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: CRIMSON;" text="Modificar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="LTitle333" layoutX="340.0" layoutY="420.0" prefHeight="109.0" prefWidth="236.0" style="-fx-background-color: LINEN; -fx-border-color: CRIMSON;" />
+            <Label fx:id="LTitle433" layoutX="345.0" layoutY="427.0" prefHeight="17.0" prefWidth="230.0" style="-fx-background-color: pink;" text="                  Eliminar  Estudiantes" />
+            <Button fx:id="ButtonDeleteStudent" layoutX="350.0" layoutY="471.0" mnemonicParsing="false" onAction="#ButtonDeleteStudentAction" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: CRIMSON;" text="Eliminar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Separator layoutY="56.0" prefHeight="4.0" prefWidth="1309.0" />
+      <TextField fx:id="TFNamePersonal" layoutX="619.0" layoutY="75.0" prefHeight="25.0" prefWidth="394.0" />
+      <Button fx:id="ButtonEditProfile" layoutX="1131.0" layoutY="75.0" mnemonicParsing="false" onAction="#ButtonEditProfileAction" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: CRIMSON;" text="Editar Perfil" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonConfirmation" layoutX="1180.0" layoutY="665.0" mnemonicParsing="false" onAction="#ButtonConfirmationAction" style="-fx-background-color: CRIMSON;" text="Confirmar Accion" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="901.0" layoutY="125.0" prefHeight="17.0" prefWidth="128.0" text="TABLA DE PEDIDOS" textFill="#0d0d0d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="LNULL" layoutX="617.0" layoutY="650.0" prefHeight="55.0" prefWidth="553.0" />
+      <ImageView fx:id="ImageProfile" fitHeight="37.0" fitWidth="63.0" layoutX="1038.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+{
+    "day": "Miercoles",
+    "meals": [
+        {
+            "name": "Pancakes",
+            "price": 2500
+        },
+        {
+            "name": "Huevos Revueltos",
+            "price": 2000
+        },
+        {
+            "name": "Bagels con Queso Crema",
+            "price": 1800
+        },
+        {
+            "name": "Cereal con Leche",
+            "price": 1500
+        },
+        {
+            "name": "Jugo de Naranja",
+            "price": 1600
+        }
+    ]
+}

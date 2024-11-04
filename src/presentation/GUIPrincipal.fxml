@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="155.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.GUIPrincipalController">
+   <children>
+      <Label layoutX="13.0" layoutY="26.0" text="Sistema Prepago para Soda Universidad Nacional">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonStudent" layoutX="14.0" layoutY="92.0" mnemonicParsing="false" onAction="#ButtonStudentAction" text="Estudiantes" />
+      <Button fx:id="ButtonService" layoutX="118.0" layoutY="92.0" mnemonicParsing="false" onAction="#ButtonServiceAction" text="Solicitud de servicio" />
+      <Button fx:id="ButtonConsultRecharge" layoutX="405.0" layoutY="92.0" mnemonicParsing="false" onAction="#ButtonConsultRechargeAction" text="Consultar Recargas" />
+      <Button fx:id="ButtonRecharge" layoutX="283.0" layoutY="92.0" mnemonicParsing="false" onAction="#ButtonRechargeAction" text="Recargas" />
+   </children>
+</AnchorPane>

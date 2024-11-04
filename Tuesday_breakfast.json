@@ -1,0 +1,25 @@
+{
+    "day": "Martes",
+    "meals": [
+        {
+            "name": "Tamal",
+            "price": 2000
+        },
+        {
+            "name": "Pinto con Natilla",
+            "price": 1500
+        },
+        {
+            "name": "Empanadas de Queso",
+            "price": 1200
+        },
+        {
+            "name": "Chorreadas",
+            "price": 1800
+        },
+        {
+            "name": "Batido de Frutas",
+            "price": 1300
+        }
+    ]
+}

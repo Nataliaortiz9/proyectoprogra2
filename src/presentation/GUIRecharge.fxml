@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.GUIRechargeController">
+   <children>
+      <Label fx:id="LStudent" layoutX="21.0" layoutY="28.0" text="Estudiante" />
+      <ComboBox fx:id="CBStudent" layoutX="136.0" layoutY="24.0" prefHeight="25.0" prefWidth="379.0" promptText="Seleccione al estudiante" />
+      <Label fx:id="LAmount" layoutX="21.0" layoutY="80.0" text="Monto" />
+      <TextField fx:id="TFAmount" layoutX="133.0" layoutY="76.0" prefHeight="25.0" prefWidth="379.0" promptText="Ingrese el monto a recargar" />
+      <DatePicker fx:id="DPDateRecharge" layoutX="133.0" layoutY="124.0" prefHeight="25.0" prefWidth="379.0" promptText="Seleccione la fecha" />
+      <Label fx:id="LDate" layoutX="21.0" layoutY="128.0" text="Fecha de recarga" />
+      <Label fx:id="LNULL" layoutX="21.0" layoutY="149.0" prefHeight="34.0" prefWidth="493.0" textFill="#e40e0e" />
+      <Button fx:id="ButtonRecharge" layoutX="23.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonRechargeAction" text="Recargar" />
+      <Button fx:id="ButtonReturn" layoutX="449.0" layoutY="188.0" mnemonicParsing="false" onAction="#ButtonReturnAction" text="Regresar" />
+   </children>
+</AnchorPane>

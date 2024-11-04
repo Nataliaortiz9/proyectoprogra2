@@ -1,0 +1,25 @@
+{
+    "day": "Viernes",
+    "meals": [
+        {
+            "name": "Croissants Rellenos",
+            "price": 2300
+        },
+        {
+            "name": "Tostadas con Mermelada",
+            "price": 1700
+        },
+        {
+            "name": "Omelette de Jamón",
+            "price": 2000
+        },
+        {
+            "name": "Waffles con Frutas",
+            "price": 2500
+        },
+        {
+            "name": "Café Americano",
+            "price": 1400
+        }
+    ]
+}

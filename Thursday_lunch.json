@@ -1,0 +1,25 @@
+{
+    "day": "Miercoles",
+    "meals": [
+        {
+            "name": "Chili con Carne",
+            "price": 3200
+        },
+        {
+            "name": "Tacos de Carne Asada",
+            "price": 3500
+        },
+        {
+            "name": "Pollo a la Parrilla",
+            "price": 4000
+        },
+        {
+            "name": "Ensalada de Pasta",
+            "price": 2700
+        },
+        {
+            "name": "Sándwich Club",
+            "price": 2800
+        }
+    ]
+}

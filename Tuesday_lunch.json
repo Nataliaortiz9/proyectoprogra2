@@ -1,0 +1,25 @@
+{
+    "day": "Martes",
+    "meals": [
+        {
+            "name": "Olla de Carne",
+            "price": 4000
+        },
+        {
+            "name": "Arroz con Mariscos",
+            "price": 3200
+        },
+        {
+            "name": "Chifrijo",
+            "price": 2700
+        },
+        {
+            "name": "Picadillo de Papa con Carne",
+            "price": 2500
+        },
+        {
+            "name": "Ensalada Verde",
+            "price": 1500
+        }
+    ]
+}

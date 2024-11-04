@@ -1,0 +1,25 @@
+{
+    "day": "Lunes",
+    "meals": [
+        {
+            "name": "Casado con Pollo",
+            "price": 3500
+        },
+        {
+            "name": "Arroz con Pollo",
+            "price": 2500
+        },
+        {
+            "name": "Ceviche",
+            "price": 3000
+        },
+        {
+            "name": "Sopa Negra",
+            "price": 1800
+        },
+        {
+            "name": "Ensalada de Atún",
+            "price": 2200
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "day": "Miercoles",
+    "meals": [
+        {
+            "name": "Pan de Banano",
+            "price": 2200
+        },
+        {
+            "name": "Yogur con Granola",
+            "price": 1800
+        },
+        {
+            "name": "Muffin de Arándano",
+            "price": 2000
+        },
+        {
+            "name": "Tostadas Francesas",
+            "price": 2400
+        },
+        {
+            "name": "Café con Leche",
+            "price": 1500
+        }
+    ]
+}

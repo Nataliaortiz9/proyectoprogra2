@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="329.0" prefWidth="631.0" style="-fx-background-color: linen;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.GUIRegisterStudentController">
+   <children>
+      <Label fx:id="LCarnet" layoutX="16.0" layoutY="68.0" prefHeight="17.0" prefWidth="91.0" text="Identificacion" />
+      <TextField fx:id="TFCarnet" layoutX="130.0" layoutY="64.0" prefHeight="25.0" prefWidth="465.0" promptText="Ingrese el carnet del estudiante" style="-fx-border-color: CRIMSON;" />
+      <Label fx:id="LName" layoutX="16.0" layoutY="112.0" text="Nombre" />
+      <TextField fx:id="TFName" layoutX="130.0" layoutY="108.0" prefHeight="25.0" prefWidth="465.0" promptText="Ingrese el nombre del estudiante" style="-fx-border-color: CRIMSON;" />
+      <Button fx:id="buttonRegisterStudent" layoutX="528.0" layoutY="276.0" mnemonicParsing="false" onAction="#buttonRegisterStudentAction" style="-fx-background-color: CRIMSON;" text="Registrar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="LNULL" layoutX="16.0" layoutY="221.0" prefHeight="36.0" prefWidth="580.0" textFill="#dd0f0f" />
+      <Button fx:id="ButtonEditStudent" layoutX="353.0" layoutY="276.0" mnemonicParsing="false" onAction="#ButtonEditStudentAction" style="-fx-background-color: hotpink;" text="Editar estudiante" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="ButtonSeeStudent" layoutX="138.0" layoutY="276.0" mnemonicParsing="false" onAction="#ButtonSeeStudentAction" style="-fx-background-color: pink;" text="Ver registro de estudiantes" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="LStudentTitle" layoutY="-2.0" prefHeight="43.0" prefWidth="631.0" style="-fx-background-color: CRIMSON;" text="                                             Registro de Estudiantes" textFill="#ffffffd6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonReturn" layoutX="14.0" layoutY="276.0" mnemonicParsing="false" onAction="#ButtonReturnAction" style="-fx-background-color: crimson;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="Lpassword" layoutX="17.0" layoutY="151.0" text="Contraseña" />
+      <TextField fx:id="TFPassword" layoutX="130.0" layoutY="147.0" prefHeight="25.0" prefWidth="465.0" promptText="Contraseña por defecto" style="-fx-border-color: CRIMSON;" />
+      <Label fx:id="LRoute" layoutX="15.0" layoutY="194.0" text="Ruta de la foto" />
+      <TextField fx:id="TFPhotoRoute" layoutX="130.0" layoutY="190.0" prefHeight="27.0" prefWidth="275.0" style="-fx-border-color: crimson;" />
+      <Button fx:id="ButtonSearchPhoto" layoutX="446.0" layoutY="191.0" mnemonicParsing="false" onAction="#ButtonSearchPhotoAction" prefHeight="27.0" prefWidth="130.0" style="-fx-background-color: pink;" text="Escoger Foto" />
+   </children>
+</AnchorPane>

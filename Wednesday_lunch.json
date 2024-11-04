@@ -1,0 +1,25 @@
+{
+    "day": "Miercoles",
+    "meals": [
+        {
+            "name": "Sopa de Pollo",
+            "price": 3500
+        },
+        {
+            "name": "Pasta con Salsa Boloñesa",
+            "price": 3000
+        },
+        {
+            "name": "Enchiladas",
+            "price": 3200
+        },
+        {
+            "name": "Arroz a la Cubana",
+            "price": 2800
+        },
+        {
+            "name": "Ensalada César",
+            "price": 2000
+        }
+    ]
+}

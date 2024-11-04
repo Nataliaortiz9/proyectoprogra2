@@ -46,7 +46,7 @@ public class GUIEditUserController {
 	
 	public void initialize() {
 		tfName.setText(currentUser.getNameUser());
-		tfId.setText(currentUser.getId());
+		tfId.setText(String.valueOf(currentUser.getId()));
 		tfIdentification.setText(currentUser.getIdentificationUser());
 		
 	}
